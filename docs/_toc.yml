@@ -7,6 +7,9 @@ chapters:
 - file: requirements
 - file: installation
 - file: config/configuration
+- file: config/daemon-config
   sections:
-  - file: config/daemon-config
-  - file: config/console-config
+  - file: config/sb9600-config
+- file: config/console-config
+- file: config/rc2-dvm-config
+- file: running

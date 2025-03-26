@@ -10,7 +10,7 @@ via the [`rc2-dvm`](https://github.com/W3AXL/rc2-dvm)) application.
 
 The following radios have been confirmed to work with the RC2 `daemon`:
 
-- Motorola SB9600 Radios
+- Motorola SB9600 Radios (using a serial port and Radio Interface Box aka RIB)
     - Astro Spectra W9 Head
     - MCS2000 M3 Head
     - XTL5000 W9 Head
@@ -19,9 +19,9 @@ The following radios have been confirmed to work with the RC2 `daemon`:
 
 The following radios are planned to be supported but are not yet fully implemented:
 
-- Motorola Serial XMP Radios
+- Motorola Serial XMP Radios (using a serial port)
     - XTL1500/2500/5000
-- Motorola USB XCMP Radios
+- Motorola USB XCMP Radios (using USB)
     - APX x500 series mobiles
     - XPR4x00/5x00 series mobiles
 

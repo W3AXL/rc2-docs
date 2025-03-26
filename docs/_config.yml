@@ -3,7 +3,7 @@
 
 title: RadioConsole2
 author: RC2 Development Team
-logo: media/console-icon.png
+logo: media/header-image.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
