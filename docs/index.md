@@ -6,21 +6,14 @@ RadioConsole2 (shortened as RC2) is an open-source radio dispatch console system
 [W3AXL](https://github.com/W3AXL). The intent of the system is to allow for remote operation
 of two-way radios using a modular and expandable IP-based control system.
 
-## Features
+## Table of Contents
 
-- **Remote Control of Radios**
-    - Motorola Astro, XTL, APX, and TRBO radios
-    - Generic radio control via 4-Wire E&M or Tone Remote
-    - Direct connection to DVMProject FNE networks
-- **Standard Dispatch Console Functionality**
-    - Multi-Receive
-    - Dynamic Panning
-    - Realtime TX/RX status
-    - Alert Tone Encoding
-- **Expandable Control**
-    - MIDI control of PTT, Volume, and Channel Select
-    - Serial PTT for footswitch support
-    - Websocket extension interface
+```{tableofcontents}
+```
+
+## RC2 Overview
+
+Below is an overview of RC2, its interfaces, and its basic architecture.
 
 ```{mermaid}
 :config: {"theme": "base", "darkMode": "true"}
@@ -108,7 +101,16 @@ flowchart TD
     console <-- WebRTC --> rc2-dvm <-- FNE Peer Connection --> dvm-fne
 ```
 
-This docs site should assist you in installing and configuring RadioConsole2.
-
-```{tableofcontents}
-```
+- **Remote Control of Radios**
+    - Motorola Astro, XTL, APX, and TRBO radios
+    - Generic radio control via 4-Wire E&M or Tone Remote
+    - Direct connection to DVMProject FNE networks
+- **Standard Dispatch Console Functionality**
+    - Multi-Receive
+    - Dynamic Panning
+    - Realtime TX/RX status
+    - Alert Tone Encoding
+- **Expandable Control**
+    - MIDI control of PTT, Volume, and Channel Select
+    - Serial PTT for footswitch support
+    - Websocket extension interface

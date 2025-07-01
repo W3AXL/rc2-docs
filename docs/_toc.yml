@@ -13,3 +13,6 @@ chapters:
 - file: config/console-config
 - file: config/rc2-dvm-config
 - file: running
+- file: development/development
+  sections:
+  - file: development/websocket-protocol
